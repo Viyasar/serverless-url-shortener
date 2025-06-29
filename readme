@@ -1,0 +1,20 @@
+# Serverless URL Shortener
+
+A lightweight, cost-efficient serverless URL shortener built using AWS Lambda, API Gateway, and DynamoDB.
+
+## 🔧 How it Works
+
+- Accepts a POST request with a long URL.
+- Generates a 6-character short code.
+- Stores the mapping in DynamoDB.
+- Returns a shortened URL based on the API Gateway endpoint.
+
+## 🚀 Tech Stack
+
+- AWS Lambda (Python)
+- Amazon API Gateway
+- Amazon DynamoDB
+
+## 📬 API Usage
+
+### Endpoint
