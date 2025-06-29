@@ -18,3 +18,4 @@ A lightweight, cost-efficient serverless URL shortener built using AWS Lambda, A
 ## 📬 API Usage
 
 ### Endpoint
+curl -X POST -H "Content-Type: application/json" -d "{\"url\":\"https://example.com/very-long-url\"}" https://chvsmruvq6.execute-api.us-east-1.amazonaws.com/dev
